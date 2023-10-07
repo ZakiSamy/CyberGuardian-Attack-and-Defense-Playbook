@@ -9,8 +9,15 @@
 
 ## Hacking & Pentesting
 
-* [Pentesting Methodology](hacking-and-pentesting/pentesting-methodology.md)
 * [Vulnerability Management](hacking-and-pentesting/vulnerability-management.md)
+* [Pentesting Documentation Templates](hacking-and-pentesting/pentesting-documentation-templates/README.md)
+  * [Rule of Engagement (ROE) Template](hacking-and-pentesting/pentesting-documentation-templates/rule-of-engagement-roe-template.md)
+  * [Penetration Test Report Template](hacking-and-pentesting/pentesting-documentation-templates/penetration-test-report-template.md)
+* [Tools & Files Transfer](hacking-and-pentesting/tools-and-files-transfer.md)
+* [Defense Evasion](hacking-and-pentesting/defense-evasion.md)
+* [Password Attacks](hacking-and-pentesting/password-attacks.md)
+* [Pivoting, Tunneling, and Port Forwarding](hacking-and-pentesting/pivoting-tunneling-and-port-forwarding.md)
+* [Exfiltration](hacking-and-pentesting/exfiltration.md)
 
 ## Attack Surface
 
@@ -18,7 +25,11 @@
 
 ## ⚔ Red Teaming
 
-* [Untitled](red-teaming/untitled.md)
+* [Red Team Mission Checklist](red-teaming/red-team-mission-checklist.md)
+* [Red Team Exercise Planning Checklist](red-teaming/red-team-exercise-planning-checklist.md)
+* [Red Teaming Documentation Templates](red-teaming/red-teaming-documentation-templates/README.md)
+  * [Red Team Mission Report Template](red-teaming/red-teaming-documentation-templates/red-team-mission-report-template.md)
+  * [Red Team Mission Definition Report Template](red-teaming/red-teaming-documentation-templates/red-team-mission-definition-report-template.md)
 
 ## Purple Teaming
 
@@ -26,7 +37,7 @@
 
 ## Threat Intelligence
 
-* [Page 3](threat-intelligence/page-3.md)
+* [Threat Intelligence](threat-intelligence/threat-intelligence.md)
 
 ## Incident Response
 
@@ -46,7 +57,8 @@
 
 ## Cybersecurity Management
 
-* [Untitled](cybersecurity-management/untitled.md)
+* [Cybersecurity Frameworks](cybersecurity-management/cybersecurity-frameworks.md)
+* [Zero Trust Maturity Model](cybersecurity-management/zero-trust-maturity-model.md)
 
 ## Network Security
 
@@ -95,6 +107,8 @@
 ## Web Security
 
 * [Web Application Pentest Methodology](web-security/web-application-pentest-methodology.md)
+* [WordPress Hacking](web-security/wordpress-hacking.md)
+* [Web Protection & Security](web-security/web-protection-and-security.md)
 
 ## Cloud Security
 
@@ -106,26 +120,34 @@
 
 ## Wireless Security
 
-* [Page 8](wireless-security/page-8.md)
+* [Attack Preparation](wireless-security/attack-preparation.md)
+* [Wireless Cracking](wireless-security/wireless-cracking.md)
+* [ARP Request Replay Attack](wireless-security/arp-request-replay-attack.md)
+* [Bypass Wireless Protection](wireless-security/bypass-wireless-protection.md)
+* [HITRE Attack](wireless-security/hitre-attack.md)
+* [wifipumpkin3](wireless-security/wifipumpkin3.md)
 
 ## Physical Security
 
 * [Page 9](physical-security/page-9.md)
 
-## IoT Security
+## IOT Security
 
 * [Page 10](iot-security/page-10.md)
 
 ## Crypto & Stego
 
+* [Hashing](crypto-and-stego/hashing.md)
 * [Stego of Images](crypto-and-stego/stego-of-images.md)
 * [Stego of Audio](crypto-and-stego/stego-of-audio.md)
 
 ## CyberGuardian Arsenal
 
-* [Untitled](cyberguardian-arsenal/untitled.md)
+* [ffuf](cyberguardian-arsenal/ffuf.md)
+* [Hashcat](cyberguardian-arsenal/hashcat.md)
+* [Nmap](cyberguardian-arsenal/nmap.md)
+* [SQLMap](cyberguardian-arsenal/sqlmap.md)
 
 ## Resources
 
-* [Books](resources/books.md)
-* [Online Resources](resources/online-resources.md)
+* [Resources](resources/resources.md)

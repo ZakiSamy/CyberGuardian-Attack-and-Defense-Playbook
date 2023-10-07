@@ -1,58 +1,57 @@
 # Stego of Images
 
-Steganography is the art of concealing information within digital media, such as images, without leaving any visible traces. Cybersecurity professionals often use specialized tools to reveal hidden data within images. Here are some commands for extracting hidden data from image files:
+Steganography, the art of concealing information within digital media, allows for the covert embedding of data within files like images without leaving any visible traces. Within the realm of steganography, image steganography stands as a crucial subfield, focusing on the discreet integration of information within image files. The primary objective? Ensuring that the modified image maintains its visual integrity, remaining virtually indistinguishable from the original to avoid detection.
 
-#### Steghide
+### The Practical Applications of Image Steganography
 
-Extract Hidden Data from .jpg Image:
+***
 
-```shell
+#### Covert Communication
+
+* **Malicious Intent:** Cyber adversaries leverage image steganography to clandestinely convey instructions, malware, or pilfered data within innocuous images, skillfully circumventing conventional security measures.
+
+#### Data Exfiltration
+
+* **Insider Threats:** Internal actors may exploit image steganography to surreptitiously siphon sensitive corporate data, posing a substantial risk to organizations that rely on data confidentiality.
+
+#### Watermarking and Copyright Protection
+
+* **Legitimate Use:** Image steganography isn't solely a tool of malfeasance. It serves lawful purposes such as watermarking images for copyright safeguarding or discreetly embedding marks for the authentication of authenticity.
+
+### Extracting Hidden Data from Images
+
+***
+
+#### JPEG Images
+
+```bash
 $ steghide extract -sf $IMAGE
-```
-
-#### Stegoveritas
-
-Extract Hidden Data from .jpg Image:
-
-```shell
 $ stegoveritas -steghide $IMAGE
-```
-
-Extract Hidden Data from .jpg Image:
-
-```shell
 $ stegoveritas -exif -steghide $IMAGE
-```
-
-#### Binwalk
-
-Extract Hidden Data from .jpg Image:
-
-```shell
 $ binwalk -e $IMAGE
 ```
 
-#### Zsteg
+#### PNG Images
 
-Extract Hidden Data from .png Image:
+Utilizing `zsteg`
 
-```shell
+```bash
 $ zsteg $IMAGE
 ```
 
-#### Exiftool
+#### Image Metadata
 
-Extract Hidden Data from Image Metadata:
+Extract data from image metadata using `exiftool`:
 
-```shell
+```bash
 $ exiftool $IMAGE
 ```
 
-#### Steghide (Password-Protected)
+#### Password-Protected Images
 
-Extract Data from Password-Protected Image:
+For extracting data from password-protected images
 
-```shell
-$ steghide extract -sf $IMAGE
+```bash
+$ steghide extract -sf $IMAGE 
 $ stegcracker $IMAGE /usr/share/wordlists/rockyou.txt
 ```
